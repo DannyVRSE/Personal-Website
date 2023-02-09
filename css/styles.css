@@ -1,0 +1,126 @@
+/*********tag-selectors*********/
+body {
+  margin: 0;
+}
+
+hr {
+  background-color: white;
+  width: 10%;
+  border-color: grey;
+  border-style: dotted none none;
+  height: 0;
+  border-width: 5px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: roboto;
+  color: #66BFBF
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+
+/*************class-selectors*************/
+.top-container {
+  background-color: #EAF6F6;
+  color: #66BFBF;
+  text-align: center;
+}
+
+.middle-container {
+  text-align: center;
+  background-color: white;
+}
+
+.bottom-container {
+  text-align: center;
+  margin-bottom: 10%;
+
+}
+
+.footer {
+  background-color: #66BFBF;
+  text-align: center;
+  padding:5px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: roboto;
+  margin: 20px 20px 20px 20px;
+  text-decoration:none;
+}
+.footer-link:hover{
+  color:white;
+
+}
+
+.skill-row {
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+  padding:20px;
+}
+
+.skill-img-a {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img-b {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.profile-picture {
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  overflow: hidden;/*The overflow property is set to hidden to clip any content that extends outside the circular border*/
+  text-align:center;
+}
+
+.bottoom-cloud-img {
+  position: absolute;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.social{width:30px;}
+.social:hover{width:35px;}
+.copyright{color:white;}

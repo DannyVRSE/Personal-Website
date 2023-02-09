@@ -1,0 +1,1 @@
+alert("Hello. Welcome to Daniel Mshindi's personal website");
